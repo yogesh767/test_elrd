@@ -1,0 +1,169 @@
+body{
+  background-color: rgb(212 215 223)  !important;
+  overflow: hidden;
+}
+.sidebar{
+  margin-top: 20px;
+  background-color: white;
+  width: 200px;
+  height: 60vh!important;
+}
+
+
+.nav-link{
+  text-align: left;
+
+  color: gray;
+}
+.sidebar svg{
+margin-right:10px
+}
+#root, .app {
+  height: 100vh !important;
+}
+.cx-main{
+  top: 77px;
+  left: 220px;
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+}
+.h-100{
+height: 100vh !important;
+}
+.cx-main input{
+  margin-left: 274px;
+}
+.menuactive a{
+    color: red !important;
+  }
+.productCategories,.subcategories{
+  display: inline-flex;
+}
+.productCategories .productCat{
+  position: relative;
+  border-radius: 15px;
+  border: 3px solid #e5e5e5;
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+
+}
+.seleCategory{
+  border: 3px solid red !important;
+}
+.productCat:hover{
+  border: 3px solid blue;
+}
+.subCat{
+  cursor: pointer;
+}
+.subCat:hover{
+  border: 3px solid blue;
+  border-radius: 15px;
+}
+.categoryName{
+  position: absolute;
+    width: 100%;
+    bottom: 13px;
+    left: 14%;
+  color: white;
+}
+.productCat img{
+  width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.product{
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px;
+  border: 3px solid #e5e5e5;
+  margin: 10px;
+  width: 200px;
+  height: 230px;
+}
+.spinner-border{
+  position: absolute;
+  top:50%;
+  left: 30%;
+  text-align: center;
+}
+.noDta{
+  position: absolute;
+  top:50%;
+  left: 30%;
+  text-align: center;
+}
+.subCat{
+  width: 1;
+}
+.products ,.footer{
+  display: inline-block;
+  position: relative;
+}
+.product {
+  width: 200px;
+  height: 300px;
+}
+.footer{
+    display: flex;
+  background-color: white;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 471px;
+  right: 219px !important;
+}
+.footerButtons{
+  margin: 10px;
+  width: 129px;
+  height: 132px;
+  border-radius: 15px;
+  border: 3px solid #e5e5e5;
+  align-content: center;
+}
+.footerButtons img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.footerButtons img{
+  cursor: pointer;
+  margin-top:25px;
+  width: 50% !important;
+  height: 50% !important;
+}
+
+.left {
+  width: 501px !important;
+}
+.right{
+  width: 300px  !important;
+}
+.productImages img{
+  margin-left: 5px;
+}
+.varient{
+  padding: 3px !important;
+  width: 700px;
+  display: inline-block;
+  overflow-y: scroll;
+}
+.varientItem{
+cursor: pointer;
+  margin: 1px;
+}
+.price{
+  position: absolute;
+  right: 50px;
+}
+.table-responsive, table {
+  max-height:300px !important;
+}
+.cartItem{
+  position: absolute;
+  right: 300px;
+}
